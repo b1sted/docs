@@ -1,0 +1,111 @@
+# Информация о сайте
+site_name: downwardspiral
+site_url: https://b1sted.github.io/docs
+
+# Настройка темы
+theme:
+  name: material
+  language: ru
+  logo: 
+
+  palette: 
+    # Palette toggle for light mode
+    - media: "(prefers-color-scheme: light)"
+      scheme: default
+      toggle:
+        icon: material/lightbulb
+        name: Переключение в темный режим
+
+    # Palette toggle for dark mode
+    - media: "(prefers-color-scheme: dark)"
+      scheme: slate
+      toggle:
+        icon: material/lightbulb-outline
+        name: Переключение в светлый режим
+  
+  features:
+    # фишки темы для навигации
+    - navigation.instant
+    - navigation.instant.progress
+    - navigation.tracking
+    - navigation.sections
+    - navigation.top
+    - navigation.footer
+    
+    # фишки темы для поиска
+    - search.suggest
+    - search.highlight
+
+    # toc
+    - toc.follow
+
+extra:
+  social:
+    - icon: fontawesome/brands/telegram
+      link: https://t.me/SpiralNotify_bot
+  # analytics:
+  #   provider: google
+  #   property: !ENV GOOGLE_ANALYTICS_KEY
+
+plugins:
+  - search
+  - glightbox:
+      touchNavigation: true
+      loop: false
+      effect: zoom
+      slide_effect: slide
+      width: auto
+      height: auto
+      zoomable: true
+      draggable: true
+      auto_caption: false
+      caption_position: bottom
+      background: white
+      shadow: true
+      manual: false
+  
+markdown_extensions:
+  - admonition
+  - pymdownx.details
+  - pymdownx.superfences
+  - md_in_html
+  - def_list
+  - pymdownx.arithmatex:
+      generic: true
+  - pymdownx.tasklist:
+      custom_checkbox: true
+
+extra_javascript:
+  - assets/javascripts/katex.js
+  - https://unpkg.com/katex@0/dist/katex.min.js
+  - https://unpkg.com/katex@0/dist/contrib/auto-render.min.js
+
+extra_css:
+  - https://unpkg.com/katex@0/dist/katex.min.css
+
+# Page tree
+nav:
+  - Willkommen: index.md
+  - YOU GET ME CLOSER TO GOD:
+    - "Лекция 1: Введение": closer/first_lecture.md
+    - "Лекция 2: Основные этапы решения задач на ЭВМ": closer/second_lecture.md
+    - "Лекция 3: Язык C: начальные сведения": closer/third_lecture.md
+    - "Лекция 4: Система типов в языке Си": closer/fourth_lecture.md
+    - "Лекция 5: Операции, инструкции и выражения": closer/fifth_lecture.md
+    - "Лекция 6: Организация ввода-вывода в Си": closer/sixth_lecture.md
+    - "Лекция 7: Управляющие инструкции языка": closer/seventh_lecture.md
+    - "Лекция 8: Функции": closer/eighth_lecture.md
+    - "Лекция 9: Одномерные массивы": closer/nineth_lecture.md
+    - "Лекция 10: Указатели в языке Си": closer/tenth_lecture.md
+    - "Лекция 11: Двумерные массивы": closer/eleventh_lecture.md
+  - PEOPLE ARE STRANGE:
+    - "Почему же Хазиев имеет право называть массивы фикцией?": strange/fiction.md
+  - "LEWIS, SAVE YOURSELF THE PAIN":
+    - "Массивы и указатели: глубокое погружение": pain/bikini_bottom.md
+    - "Всё о работе с ОЗУ в C": pain/ram.md
+    - "Использование Linux для будущих C'шников": pain/linux.md
+    - "Введение в командную строку (CLI) Linux": pain/cli.md
+    - "Права доступа в Linux и команда chmod": pain/chmod.md
+    - "Редактор Nano для программистов на C": pain/nano.md
+  - "WHERE IS MY MIND?":
+    - "I was swimmin' in the Caribbean": mind/caribbean.md
