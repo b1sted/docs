@@ -2,9 +2,10 @@
 title: "Лекция 6: Организация ввода-вывода в Си"
 ---
 
-> "_Кто рано встает — тому весь день спать хочется."<br/> &mdash; Джейсон Стейтем_
+> "_Кто рано встает — тому весь день спать хочется." <br/> 
+> &mdash; Джейсон Стейтем_
 
-<hr class="custom-divider">
+***
 
 ## Введение в ввод-вывод (ВВ) в C
 
@@ -28,7 +29,7 @@ int main() {
 }
 ```
 
-<hr class="custom-divider">
+***
 
 ## Стандартные потоки в C
 
@@ -52,7 +53,7 @@ int main() {
 }
 ```
 
-<hr class="custom-divider">
+***
 
 ## Форматированный ввод и вывод
 
@@ -78,7 +79,7 @@ int main() {
 }
 ```
 
-<hr class="custom-divider">
+***
 
 ## Работа с файлами
 
@@ -136,7 +137,7 @@ int main() {
 }
 ```
 
-<hr class="custom-divider">
+***
 
 ## Низкоуровневый ввод-вывод
 
@@ -170,7 +171,7 @@ int main() {
 }
 ```
 
-<hr class="custom-divider">
+***
 
 ## Буферизация и обработка ошибок
 
@@ -209,6 +210,6 @@ int main() {
 }
 ```
 
-<hr class="custom-divider">
+***
 
 > [_Seen all good things and bad_](https://www.youtube.com/watch?v=IOax8WSeEGM\&pp=ygUTaG93IGNhbiB5b3UgYmUgc3VyZQ%3D%3D)

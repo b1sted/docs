@@ -95,9 +95,13 @@ nav:
     - "Лекция 6: Организация ввода-вывода в Си": closer/sixth_lecture.md
     - "Лекция 7: Управляющие инструкции языка": closer/seventh_lecture.md
     - "Лекция 8: Функции": closer/eighth_lecture.md
-    - "Лекция 9: Одномерные массивы": closer/nineth_lecture.md
-    - "Лекция 10: Указатели в языке Си": closer/tenth_lecture.md
-    - "Лекция 11: Двумерные массивы": closer/eleventh_lecture.md
+    - "Лекция 9: Области видимости переменных": closer/nineth_lecture.md
+    - "Лекция 10: Одномерные массивы": closer/tenth_lecture.md
+    - "Лекция 11: Указатели в языке Си": closer/eleventh_lecture.md
+    - "Лекция 12: Указатели и массивы в языке C": closer/twelfth_lecture.md
+    - "Лекция 13: Двумерные массивы": closer/thirteenth_lecture.md
+    - "Лекция 14: Работа с динамической памятью": closer/fourteenth_lecture.md
+    - "Лекция 15: Основы Bash": closer/fifteenth_lecture.md
   - PEOPLE ARE STRANGE:
     - "Почему же Хазиев имеет право называть массивы фикцией?": strange/fiction.md
   - "LEWIS, SAVE YOURSELF THE PAIN":
