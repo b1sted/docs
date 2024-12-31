@@ -185,4 +185,4 @@ CLI, например, в среде Linux, позволяет работать 
 
 > [_You bowin' down to the flag, you got a bullet in your head_](https://www.youtube.com/watch?v=kmZAsLMUuPw\&pp=ygUUYnVsbGV0IGluIHlvdXIgaGVhZCA%3D)
 
-[CLI]: ../assets/images/cli.png
+[CLI]: ../assets/images/cli.webp

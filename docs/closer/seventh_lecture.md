@@ -6,4 +6,4 @@ title: "Лекция 7: Управляющие инструкции языка"
   ![lecture]
 </figure>
 
-[lecture]: ../assets/images/lecture.jpg
+[lecture]: ../assets/images/lecture.webp

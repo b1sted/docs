@@ -116,5 +116,5 @@ int *p = &a; // Указатель на переменную a
 > I wait, I wait, I wait, I wait<br />
 > My time's like water down a drain](https://www.youtube.com/watch?v=C3LXkdpHNOQ\&pp=ygUMd2FpdGluZyByb29t)
 
-[fresco]: ../assets/images/fresco.jpg
-[Mind Map]: ../assets/images/mind_map.jpg 
+[fresco]: ../assets/images/fresco.webp
+[Mind Map]: ../assets/images/mind_map.webp 
