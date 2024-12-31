@@ -4,7 +4,7 @@ title: "Лекция 4: Система типов в языке Си"
 
 > _В мужчине днем должно быть всё светлое, а ночью - тёмное. Даже пиво._
 
-<hr class="custom-divider">
+***
 
 ## Тип данных
 
@@ -55,7 +55,7 @@ int main() {
 }
 ```
 
-<hr class="custom-divider">
+***
 
 ## Переменные и константы
 
@@ -99,7 +99,7 @@ int main() {
 }
 ```
 
-<hr class="custom-divider">
+***
 
 ## Преобразование типов
 
@@ -122,7 +122,7 @@ int main() {
 }
 ```
 
-<hr class="custom-divider">
+***
 
 ## Составные типы и указатели
 
@@ -190,7 +190,7 @@ int main() {
 }
 ```
 
-<hr class="custom-divider">
+***
 
 ## Оператор `typedef`
 
@@ -226,7 +226,7 @@ int main() {
 }
 ```
 
-<hr class="custom-divider">
+***
 
 ## Логический тип и комплексные числа
 
@@ -296,7 +296,7 @@ int main() {
 }
 ```
 
-<hr class="custom-divider">
+***
 
 ## Абстракция и иерархия типов
 
@@ -368,7 +368,7 @@ int main() {
 
 Пример показывает, как мы можем использовать перечисление `Day` и структуру `Event` для создания иерархии типов. Это позволяет нам организовать данные о событиях и легко управлять ими.
 
-<hr class="custom-divider">
+***
 
-> [I feel so alone\
+> [I feel so alone <br />
 > Gonna end up a big ol' pile of them bones](https://www.youtube.com/watch?v=zTuD8k3JvxQ\&pp=ygUKdGhlbSBib25lcw%3D%3D)

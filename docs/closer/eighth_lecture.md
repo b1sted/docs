@@ -4,7 +4,7 @@ title: "Лекция 8: Функции"
 
 > _"Чтобы что-то шло тебе в руки, нужно эти руки протянуть. Иначе протянешь ноги." - Стив Бушеми_
 
-<hr class="custom-divider">
+***
 
 ## Что такое функция?
 
@@ -35,7 +35,7 @@ int main() {
 }
 ```
 
-<hr class="custom-divider">
+***
 
 ## Структура функции в C
 
@@ -53,7 +53,7 @@ int add(int a, int b) {
 }
 ```
 
-<hr class="custom-divider">
+***
 
 ## Передача параметров в функцию
 
@@ -102,7 +102,7 @@ int main() {
 
 ```
 
-<hr class="custom-divider">
+***
 
 ## Передача массивов и указателей
 
@@ -131,7 +131,7 @@ int main() {
 }
 ```
 
-<hr class="custom-divider">
+***
 
 ## Функции с переменным числом параметров
 
@@ -163,7 +163,7 @@ int main() {
 }
 ```
 
-<hr class="custom-divider">
+***
 
 ## Рекурсия
 
@@ -187,7 +187,7 @@ int main() {
 }
 ```
 
-<hr class="custom-divider">
+***
 
 ## Встраиваемые функции
 
@@ -211,7 +211,7 @@ int main() {
 }
 ```
 
-<hr class="custom-divider">
+***
 
 ## Параметры командной строки
 
@@ -241,6 +241,6 @@ int main(int argc, char *argv[]) {
 }
 ```
 
-<hr class="custom-divider">
+***
 
 > [_облегчение_](https://www.youtube.com/watch?v=ulj5UJ5GHvE\&pp=ygUZYWxiZXJ0byBiYWxzYW0gYXBoZXggdHdpbg%3D%3D)
