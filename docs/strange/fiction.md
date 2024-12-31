@@ -91,5 +91,5 @@ int main() {
   ![debts]
 </figure>
 
-[recomendacion]: ../assets/images/recomendacion.jpg
-[debts]: ../assets/images/debts.png
+[recomendacion]: ../assets/images/recomendacion.webp
+[debts]: ../assets/images/debts.webp
