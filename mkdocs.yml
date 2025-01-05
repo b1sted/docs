@@ -6,7 +6,8 @@ site_url: https://docs.basted.ru
 theme:
   name: material
   language: ru
-  logo: 
+  logo: assets/images/favicon.png
+  favicon: assets/images/favicon.png
 
   palette: 
     # Palette toggle for light mode
@@ -49,9 +50,6 @@ extra:
       link: https://t.me/SpiralNotify_bot
   meta_description: "Документация и лекции по программированию на языке C, Bash и Linux. Учебные материалы, углубленные пояснения и практические советы для студентов и разработчиков. Современные подходы к обучению и созданию программ с акцентом на практическое применение знаний."
   meta_robots: "index, follow"
-  # analytics:
-  #   provider: google
-  #   property: !ENV GOOGLE_ANALYTICS_KEY
 
 plugins:
   - search
@@ -94,7 +92,7 @@ extra_css:
   - https://unpkg.com/katex@0/dist/katex.min.css
 
 copyright: |
-  &copy; 2025 <a href="https://basted.ru" target="_blank" rel="noopener">basted</a>
+  &copy; 2024-2025 <a href="https://basted.ru" target="_blank" rel="noopener">basted</a>
 
 # Page tree
 nav:
