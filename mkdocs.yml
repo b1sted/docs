@@ -24,7 +24,7 @@ theme:
         name: Переключение в светлый режим
   
   features:
-    # фишки темы для навигации
+    # navigation
     - navigation.instant
     - navigation.instant.progress
     - navigation.tracking
@@ -33,12 +33,15 @@ theme:
     - navigation.footer
     - navigation.prune
     
-    # фишки темы для поиска
+    # search
     - search.suggest
     - search.highlight
 
     # toc
     - toc.follow
+
+    # code
+    - content.code.copy
 
 extra:
   social:
@@ -64,6 +67,20 @@ plugins:
       background: white
       shadow: true
       manual: false
+  - git-revision-date-localized
+  - minify:
+      minify_html: true
+      minify_js: true
+      minify_css: true
+      cache_safe: false
+      js_files:
+        - assets/javascripts/bundle.88dd0f4e.min.js
+        - assets/javascripts/glightbox.min.js
+        - assets/javascripts/katex.js
+      css_files:
+        - assets/stylesheets/main.6f8fc17f.min.css
+        - assets/stylesheets/palette.06af60db.min.css
+        - assets/stylesheets/glightbox.min.css
   
 markdown_extensions:
   - admonition
@@ -82,6 +99,7 @@ extra_javascript:
   - https://unpkg.com/katex@0/dist/contrib/auto-render.min.js
 
 extra_css:
+  - stylesheets/extra.css
   - https://unpkg.com/katex@0/dist/katex.min.css
 
 # Page tree
