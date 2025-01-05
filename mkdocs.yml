@@ -70,17 +70,6 @@ plugins:
   - git-revision-date-localized
   - minify:
       minify_html: true
-      minify_js: true
-      minify_css: true
-      cache_safe: false
-      js_files:
-        - assets/javascripts/bundle.88dd0f4e.min.js
-        - assets/javascripts/glightbox.min.js
-        - assets/javascripts/katex.js
-      css_files:
-        - assets/stylesheets/main.6f8fc17f.min.css
-        - assets/stylesheets/palette.06af60db.min.css
-        - assets/stylesheets/glightbox.min.css
   
 markdown_extensions:
   - admonition
