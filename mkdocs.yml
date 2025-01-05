@@ -1,6 +1,6 @@
 # Информация о сайте
 site_name: downwardspiral
-site_url: https://b1sted.github.io/docs
+site_url: https://docs.basted.ru
 
 # Настройка темы
 theme:
@@ -47,6 +47,8 @@ extra:
   social:
     - icon: fontawesome/brands/telegram
       link: https://t.me/SpiralNotify_bot
+  meta_description: "Документация и лекции по программированию на языке C, Bash и Linux. Учебные материалы, углубленные пояснения и практические советы для студентов и разработчиков. Современные подходы к обучению и созданию программ с акцентом на практическое применение знаний."
+  meta_robots: "index, follow"
   # analytics:
   #   provider: google
   #   property: !ENV GOOGLE_ANALYTICS_KEY
@@ -70,7 +72,7 @@ plugins:
   - git-revision-date-localized
   - minify:
       minify_html: true
-  
+
 markdown_extensions:
   - admonition
   - pymdownx.details
@@ -90,6 +92,9 @@ extra_javascript:
 extra_css:
   - stylesheets/extra.css
   - https://unpkg.com/katex@0/dist/katex.min.css
+
+copyright: |
+  &copy; 2025 <a href="https://basted.ru" target="_blank" rel="noopener">basted</a>
 
 # Page tree
 nav:
