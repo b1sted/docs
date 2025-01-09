@@ -26,17 +26,17 @@ theme:
   
   features:
     # navigation
+    - navigation.footer
     - navigation.instant
     - navigation.instant.progress
-    - navigation.tracking
+    - navigation.prune
     - navigation.sections
     - navigation.top
-    - navigation.footer
-    - navigation.prune
+    - navigation.tracking
     
     # search
-    - search.suggest
     - search.highlight
+    - search.suggest
 
     # toc
     - toc.follow
@@ -52,6 +52,7 @@ extra:
   meta_robots: "index, follow"
 
 plugins:
+  - git-revision-date-localized
   - search
   - glightbox:
       touchNavigation: true
@@ -67,18 +68,21 @@ plugins:
       background: white
       shadow: true
       manual: false
-  - git-revision-date-localized
   - minify:
       minify_html: true
 
 markdown_extensions:
   - admonition
+  - attr_list
+  - def_list
+  - md_in_html
   - pymdownx.details
   - pymdownx.superfences
-  - md_in_html
-  - def_list
   - pymdownx.arithmatex:
       generic: true
+  - pymdownx.emoji:
+      emoji_index: !!python/name:material.extensions.emoji.twemoji
+      emoji_generator: !!python/name:material.extensions.emoji.to_svg
   - pymdownx.tasklist:
       custom_checkbox: true
 
