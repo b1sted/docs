@@ -3,7 +3,7 @@ title: "Почему же Хазиев имеет право называть м
 ---
 
 <figure markdown="span">
-  ![recomendacion]
+  ![recomendacion]{ loading=lazy }
 </figure>
 
 <hr class="custom-divider">
@@ -88,7 +88,7 @@ int main() {
 <hr class="custom-divider">
 
 <figure markdown="span">
-  ![debts]
+  ![debts]{ loading=lazy }
 </figure>
 
 [recomendacion]: ../assets/images/recomendacion.webp
