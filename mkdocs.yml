@@ -123,6 +123,8 @@ nav:
     - "Лекция 13: Двумерные массивы": closer/thirteenth_lecture.md
     - "Лекция 14: Работа с динамической памятью": closer/fourteenth_lecture.md
     - "Лекция 15: Основы Bash": closer/fifteenth_lecture.md
+    - "Лекция 16: Строки в языке Си": closer/sixteenth_lecture.md
+    - "Лекция 17: Структуры в языке С": closer/seventeenth_lecture.md
   - PEOPLE ARE STRANGE:
     - "Почему же Хазиев имеет право называть массивы фикцией?": strange/fiction.md
   - "LEWIS, SAVE YOURSELF THE PAIN":
