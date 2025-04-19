@@ -125,6 +125,7 @@ nav:
     - "Лекция 15: Основы Bash": closer/fifteenth_lecture.md
     - "Лекция 16: Строки в языке Си": closer/sixteenth_lecture.md
     - "Лекция 17: Структуры в языке С": closer/seventeenth_lecture.md
+    - "Лекция 18: Файлы в Си и Файловые системы Linux": closer/eighteenth_lecture.md
   - PEOPLE ARE STRANGE:
     - "Почему же Хазиев имеет право называть массивы фикцией?": strange/fiction.md
   - "LEWIS, SAVE YOURSELF THE PAIN":
