@@ -127,6 +127,7 @@ nav:
     - "Лекция 17: Структуры в языке С": closer/seventeenth_lecture.md
     - "Лекция 18: Файлы в Си и Файловые системы Linux": closer/eighteenth_lecture.md
     - "Лекция 19: Модульное программирование и Инкапсуляция в Си": closer/nineteenth_lecture.md
+    - "Лекция 20: Рекурсия": closer/twenty_lecture.md
   - PEOPLE ARE STRANGE:
     - "Почему же Хазиев имеет право называть массивы фикцией?": strange/fiction.md
   - "LEWIS, SAVE YOURSELF THE PAIN":
